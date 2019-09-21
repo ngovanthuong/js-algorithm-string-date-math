@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /****/
+    let str="Tôi yêu ngôn ngữ lập trình Javascript";
+    function Count() {
+        let count = 0;
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] === "a") {
+                count++
+            }
+        }
+        return count;
+    }
+    console.log("so ki tu 'a' trong chuoi: "+ Count());
+
+    let arr=str.split(" ");
+    console.log(arr);
+    console.log("so tu trong chuoi: "+arr.length)
+    console.log(str.replace("Javascript","Typescript"))
+
+
+
+</script>
+</body>
+</html>
